@@ -1,0 +1,28 @@
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.exe.config
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.exe
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.pdb
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csprojResolveAssemblyReference.cache
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI_CW1.frmMain.resources
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI_CW1.Properties.Resources.resources
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csproj.GenerateResource.Cache
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.exe
+D:\My Documents\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.pdb
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.exe.config
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.exe
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.pdb
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.exe
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.pdb
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csprojResolveAssemblyReference.cache
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI_CW1.frmMain.resources
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI_CW1.Properties.Resources.resources
+E:\Uni\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csproj.GenerateResource.Cache
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.exe.config
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.exe
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\bin\Debug\GUI CW1.pdb
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csprojAssemblyReference.cache
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI_CW1.frmMain.resources
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI_CW1.Properties.Resources.resources
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csproj.GenerateResource.cache
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.csproj.CoreCompileInputs.cache
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.exe
+D:\My Documents\### UNI ###\YEAR 2\GUI\CW1\GUI CW1\GUI CW1\obj\Debug\GUI CW1.pdb

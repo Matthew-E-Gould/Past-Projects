@@ -1,0 +1,39 @@
+f:\my documents\visual studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe.config
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csprojResolveAssemblyReference.cache
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Form1.resources
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Properties.Resources.resources
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csproj.GenerateResource.Cache
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.pdb
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.exe
+F:\My Documents\Visual Studio 2015\Projects\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.pdb
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe.config
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.exe
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.pdb
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.pdb
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csprojResolveAssemblyReference.cache
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Form1.resources
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Properties.Resources.resources
+C:\Temp\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csproj.GenerateResource.Cache
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe.config
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.pdb
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csprojResolveAssemblyReference.cache
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Form1.resources
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Properties.Resources.resources
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csproj.GenerateResource.Cache
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.exe
+D:\My Documents\Uni\YEAR 2\GUI\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.pdb
+E:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe.config
+E:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.exe
+E:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.pdb
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe.config
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.exe
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.pdb
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.exe
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\bin\Debug\Stock_Market_Price_Reciever.pdb
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csprojResolveAssemblyReference.cache
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Form1.resources
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.Properties.Resources.resources
+F:\CW2\Stock_Market_Price_Reciever\Stock_Market_Price_Reciever\obj\Debug\Stock_Market_Price_Reciever.csproj.GenerateResource.Cache
