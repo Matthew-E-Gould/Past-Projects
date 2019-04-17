@@ -1,0 +1,8 @@
+node link = amount of flow between current node and next node
+
+go from end node to start node and list the max flow of the route
+	store the first node link's flow to a variable
+	if another nodes link is less than current max flow, set max flow to the lower number and store next node in bottleneck list
+	loop until start node
+		route all bottlenecks node
+loop until all rotes from start to end are done
