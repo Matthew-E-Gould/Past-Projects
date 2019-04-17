@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'DataLoadSave::pPlant' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::{ctor}</FUNCTION>
+    <DECORATED>??0DataLoadSave@@QAE@AAVMachine@@AAY04VPlant@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>classes.h</FILENAME>
+      <LINE>213</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead. (bounds.1: http://go.microsoft.com/fwlink/p/?LinkID=620413)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::{ctor}</FUNCTION>
+    <DECORATED>??0DataLoadSave@@QAE@AAVMachine@@AAY04VPlant@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::{ctor}</FUNCTION>
+    <DECORATED>??0DataLoadSave@@QAE@AAVMachine@@AAY04VPlant@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::{ctor}</FUNCTION>
+    <DECORATED>??0DataLoadSave@@QAE@AAVMachine@@AAY04VPlant@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::{dtor}</FUNCTION>
+    <DECORATED>??1DataLoadSave@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>77</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::appendD</FUNCTION>
+    <DECORATED>?appendD@DataLoadSave@@QAEXXZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'plantHeight' is uninitialized. Always initialize an object. (type.5: http://go.microsoft.com/fwlink/p/?LinkID=620421)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::readD</FUNCTION>
+    <DECORATED>?readD@DataLoadSave@@QAEXXZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::readD</FUNCTION>
+    <DECORATED>?readD@DataLoadSave@@QAEXXZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::readD</FUNCTION>
+    <DECORATED>?readD@DataLoadSave@@QAEXXZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>dataloadsave.cpp</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>DataLoadSave::saveD</FUNCTION>
+    <DECORATED>?saveD@DataLoadSave@@QAEXXZ</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

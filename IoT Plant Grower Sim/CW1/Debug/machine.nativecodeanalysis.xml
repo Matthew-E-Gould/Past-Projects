@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::pPlant' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::hasRained' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::freeSlot' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::offAfterDay' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::newDay' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::torf' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::tempInt' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Machine::temp' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>classes.h</FILENAME>
+      <LINE>170</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead. (bounds.1: http://go.microsoft.com/fwlink/p/?LinkID=620413)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::{ctor}</FUNCTION>
+    <DECORATED>??0Machine@@QAE@AAVAuthenticator@@AAY04VPlant@@AAVSoil@@AAVWeather@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::{dtor}</FUNCTION>
+    <DECORATED>??1Machine@@QAE@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::{dtor}</FUNCTION>
+    <DECORATED>??1Machine@@QAE@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::slotIsFree</FUNCTION>
+    <DECORATED>?slotIsFree@Machine@@QAE_NG@Z</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::addPlant</FUNCTION>
+    <DECORATED>?addPlant@Machine@@QAEXG@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>81</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::addPlant</FUNCTION>
+    <DECORATED>?addPlant@Machine@@QAEXG@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::addPlant</FUNCTION>
+    <DECORATED>?addPlant@Machine@@QAEXG@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::removePlant</FUNCTION>
+    <DECORATED>?removePlant@Machine@@QAEXG@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>289</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::Opt2</FUNCTION>
+    <DECORATED>?Opt2@Machine@@QAEXXZ</DECORATED>
+    <FUNCLINE>282</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>313</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::Opt2</FUNCTION>
+    <DECORATED>?Opt2@Machine@@QAEXXZ</DECORATED>
+    <FUNCLINE>282</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>machine.cpp</FILENAME>
+      <LINE>354</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions. (bounds.2: http://go.microsoft.com/fwlink/p/?LinkID=620414)</DESCRIPTION>
+    <FUNCTION>Machine::Opt5</FUNCTION>
+    <DECORATED>?Opt5@Machine@@QAEXXZ</DECORATED>
+    <FUNCLINE>349</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

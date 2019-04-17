@@ -1,0 +1,22 @@
+--------------------
+Day: 1
+Month: 0
+Year: 0
+--------------------
+Plant count: 1
+Plant [1] height (mm): 93
+Plant [2] height (mm): 0
+Plant [3] height (mm): 0
+Plant [4] height (mm): 0
+Plant [5] height (mm): 0
+--------------------
+Day: 1
+Month: 0
+Year: 0
+--------------------
+Plant count: 1
+Plant [1] height (mm): 82
+Plant [2] height (mm): 0
+Plant [3] height (mm): 0
+Plant [4] height (mm): 0
+Plant [5] height (mm): 0

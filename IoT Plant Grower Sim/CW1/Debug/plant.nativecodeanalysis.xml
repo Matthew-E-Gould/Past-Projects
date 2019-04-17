@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>plant.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Plant::alive' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Plant::{ctor}</FUNCTION>
+    <DECORATED>??0Plant@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>plant.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Plant::height' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Plant::{ctor}</FUNCTION>
+    <DECORATED>??0Plant@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\cw1 v3 - b4 nested classes\cw1\</FILEPATH>
+      <FILENAME>plant.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Plant::moistureIntake' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>Plant::{ctor}</FUNCTION>
+    <DECORATED>??0Plant@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
