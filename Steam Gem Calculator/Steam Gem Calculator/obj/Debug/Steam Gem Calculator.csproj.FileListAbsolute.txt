@@ -1,0 +1,28 @@
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.exe.config
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.exe
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.pdb
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csprojResolveAssemblyReference.cache
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam_Gem_Calculator.Form1.resources
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam_Gem_Calculator.Properties.Resources.resources
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csproj.GenerateResource.Cache
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.exe
+D:\My Documents\Uni\YEAR 2\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.pdb
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.exe.config
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.exe
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.pdb
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csprojResolveAssemblyReference.cache
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam_Gem_Calculator.Form1.resources
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam_Gem_Calculator.Properties.Resources.resources
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csproj.GenerateResource.Cache
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.exe
+E:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.pdb
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.exe.config
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.exe
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.pdb
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.exe
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\bin\Debug\Steam Gem Calculator.pdb
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam_Gem_Calculator.Form1.resources
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam_Gem_Calculator.Properties.Resources.resources
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csproj.GenerateResource.Cache
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csprojAssemblyReference.cache
+D:\My Documents\Steam Gem Calculator\Steam Gem Calculator\obj\Debug\Steam Gem Calculator.csproj.CoreCompileInputs.cache
