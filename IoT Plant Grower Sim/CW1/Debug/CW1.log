@@ -1,0 +1,20 @@
+﻿  Authenticator.cpp
+  DataLoadSave.cpp
+  Machine.cpp
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\machine.cpp(125): warning C4390: ';': empty controlled statement found; is this the intent?
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\machine.cpp(246): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Plant.cpp
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\plant.cpp(10): warning C4244: 'return': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\plant.cpp(33): warning C4244: '+=': conversion from 'double' to 'uint64_t', possible loss of data
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\plant.cpp(45): warning C4244: '+=': conversion from 'double' to 'uint64_t', possible loss of data
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\plant.cpp(57): warning C4244: '+=': conversion from 'double' to 'uint64_t', possible loss of data
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\plant.cpp(69): warning C4244: '+=': conversion from 'double' to 'uint64_t', possible loss of data
+  Soil.cpp
+  Source.cpp
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\source.cpp(56): warning C4244: 'argument': conversion from 'double' to 'uint16_t', possible loss of data
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\source.cpp(61): warning C4244: 'argument': conversion from 'double' to 'uint16_t', possible loss of data
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\source.cpp(21): warning C4101: 'torf': unreferenced local variable
+d:\my documents\### uni ###\year 2\secure software\cs2s562_cw1_15065456_matthew_gould\secure software cw1 program\cw1\source.cpp(100): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Weather.cpp
+  Generating Code...
+  CW1.vcxproj -> D:\My Documents\### UNI ###\YEAR 2\Secure Software\CS2S562_CW1_15065456_Matthew_Gould\Secure Software CW1 Program\Debug\CW1.exe

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="State">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAABBAAAAA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateContext">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAwAAACAAEBAAAQAAAAAAABAAAAQ=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transition">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQQAQA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoptartState">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutOfPoptart">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAQQAQA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoCredit">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAQQAQA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HasCredit">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAQQAQA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DispensePoptart">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQQAQA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAEAAAAAAAQA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poptart">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poptart_Dispenser">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="StateContext" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.562" />
+        <Point X="2.375" Y="3.562" />
+        <Point X="2.375" Y="3.562" />
+        <Point X="3" Y="3.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAAAABAAAwAEAAAAQAAQAAAYAQQAQg=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="state">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEgAAAABA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="stateParameter">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Appendix A.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
