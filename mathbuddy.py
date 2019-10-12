@@ -21,7 +21,7 @@ class MathBuddy:
 
         print("Hello World. :)")
         print(strftime("It is: %d/%m/%Y %H:%M:%S -> GMT", gmtime()))
-        print("You are running v1.5 of MathBuddy :D")
+        print("You are running v1.5.1 of MathBuddy :D")
         print("")
 
 ############################
@@ -352,6 +352,17 @@ class MathBuddy:
         while x < len(self.log):
             print(self.log[x])
             x += 1
+
+    def help(self):
+        print("Commands:")
+        
+        print("calculate(<equation>) - calculate an equation")
+        
+        print("factoral(<number>) - finds out the factor of a number")
+        print("rec_fac(<number>) - finds out the factor of a number, recursively")
+        
+        print("fibonacci(<number>) - finds out the fibonacci of a number")
+        print("rec_fib(<number>) - finds out the fibonacci of a number, recursively")
 
 # from mathbuddy import *
 # bot = MathBuddy()
