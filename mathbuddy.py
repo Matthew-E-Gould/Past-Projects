@@ -21,7 +21,7 @@ class MathBuddy:
 
         print("Hello World. :)")
         print(strftime("It is: %d/%m/%Y %H:%M:%S -> GMT", gmtime()))
-        print("You are running v1.5.1 of MathBuddy :D")
+        print("You are running v1.5.2 of MathBuddy :D")
         print("")
 
 ############################
@@ -260,7 +260,7 @@ class MathBuddy:
         return equ_array
 
     def __equ_bodmas(self, equ_arr):
-        print("-\nDetecting "+str(self.__operations0))
+        print("-\nDetecting "+str(self.__operations0)+" for "+str(equ_arr))
         valid, locs, temp_equ_arr = self.__equ_b(equ_arr)
         if valid:
             print("Working out stuff relating to "+str(self.__operations0))
@@ -269,7 +269,7 @@ class MathBuddy:
             print("The Equation now looks like: " + str(equ_arr))
         del valid, locs, temp_equ_arr
 
-        print("-\nDetecting "+str(self.__operations1))
+        print("-\nDetecting "+str(self.__operations1)+" for "+str(equ_arr))
         locs = self.__equ_o(equ_arr)
         if len(locs) > 0:
             print("Working out stuff relating to "+str(self.__operations1))
@@ -277,7 +277,7 @@ class MathBuddy:
             self.log.append(''.join(str(e) for e in equ_arr))
             print("The Equation now looks like: " + str(equ_arr))
 
-        print("-\nDetecting " + str(self.__operations2))
+        print("-\nDetecting " + str(self.__operations2)+" for "+str(equ_arr))
         locs = self.__equ_dm(equ_arr)
         if len(locs) > 0:
             print("Working out stuff relating to " + str(self.__operations2))
@@ -285,7 +285,7 @@ class MathBuddy:
             self.log.append(''.join(str(e) for e in equ_arr))
             print("The Equation now looks like: " + str(equ_arr))
 
-        print("-\nDetecting " + str(self.__operations3))
+        print("-\nDetecting " + str(self.__operations3)+" for "+str(equ_arr))
         locs = self.__equ_as(equ_arr)
         if len(locs) > 0:
             print("Working out stuff relating to " + str(self.__operations3))
@@ -329,10 +329,10 @@ class MathBuddy:
         self.__equ_string = str(input_equation_str)
         print("Starting the timer!")
         start_time = time()
-        print("Reading Equation: "+self.__equ_string+" 0-0")
+        print("Reading Equation: "+self.__equ_string)
         self.__equ_read()
-        print("Equation Read as: "+str(self.__equ_array)+" :o")
-        self.log.append(''.join(str(e) for e in self.__equ_array))
+        print("Equation Read as: "+str(self.__equ_array))
+        self.log.append(''.join(str(e) for e in self.__equ_array)+" = ?")
 
         print("Now Doing the BODMAS :)")
         self.answer = self.__equ_bodmas(self.__equ_array)
@@ -346,12 +346,14 @@ class MathBuddy:
         print("")
 
         self.ans_hist.append(self.answer)
+        return self.answer
 
     def out_log(self):
         x = 0
         while x < len(self.log):
             print(self.log[x])
             x += 1
+        return self.log
 
     def help(self):
         print("Commands:")
@@ -363,6 +365,8 @@ class MathBuddy:
         
         print("fibonacci(<number>) - finds out the fibonacci of a number")
         print("rec_fib(<number>) - finds out the fibonacci of a number, recursively")
+
+        print("out_log() - outputs a log")
 
 # from mathbuddy import *
 # bot = MathBuddy()
