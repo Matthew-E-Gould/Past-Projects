@@ -3,33 +3,34 @@ from time import time, strftime, gmtime
 
 class MathBuddy:
     def __init__(self):
-        self.__operations0 = ["(", ")"]
-        self.__operations1 = ["^", "!"]
-        self.__operations2 = ["/", "*", "%"]
-        self.__operations3 = ["+", "-"]
-        self.__num_ref = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-        self.__not_ref = [".", ","]
+        self.__operations0 = ["(", ")"] # brackets
+        self.__operations1 = ["^", "!"] # powers
+        self.__operations2 = ["/", "*", "%"] # multiplication
+        self.__operations3 = ["+", "-"] # addition
+        self.__num_ref = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] # numbers
+        self.__not_ref = [".", ","] # notation
         self.__opr_ref = self.__operations0 + self.__operations1 + self.__operations2 + self.__operations3
-        self.__opr_ref2 = self.__operations1 + self.__operations2 + self.__operations3
+        self.__opr_ref_dev = self.__operations1 + self.__operations2 + self.__operations3
 
-        self.__equ_array = []
-        self.__equ_string = ""
+        self.__equ_array = [] # stores equation
+        self.__equ_string = "" # stroes string equiv of equation
 
-        self.answer = 0
-        self.ans_hist = []
-        self.log = []
+        self.answer = 0 # answer
+        self.ans_hist = [] # history of answers
+        self.log = [] # log of last equation
 
+        # output to say that bot has started up
         print("Hello World. :)")
         print(strftime("It is: %d/%m/%Y %H:%M:%S -> GMT", gmtime()))
-        print("You are running v1.5.2 of MathBuddy :D")
+        print("You are running v1.5.3 of MathBuddy :D")
         print("")
 
-############################
-#  BODMAS module ###########
-############################
+    ############################
+    #  BODMAS module  ##########
+    ############################
     def __equ_read(self):  # read equation, turns [1,2,+,3] to [12,+,3] etc.
         size = len(self.__equ_string)  # getting size of string
-        int_vals = 0  # stores the vales of integers
+        int_vals = 0  # stores the values of integers
         self.__equ_array.clear()
         decimal_last = False
         for x in range(size):  # reading each character of the string
@@ -129,7 +130,7 @@ class MathBuddy:
                     torf = False  # end while loop
 
             change += end - start  # accounting for the simplification of equation
-            self.log.append(''.join(str(e) for e in equ_array))
+            #self.log.append(''.join(str(e) for e in equ_array)) #<<<<<<<<<<<<<<<<<<<<<<<<<
 
         return equ_array
 
@@ -265,7 +266,7 @@ class MathBuddy:
         if valid:
             print("Working out stuff relating to "+str(self.__operations0))
             equ_arr = self.__equ_b2(temp_equ_arr, locs)
-            self.log.append(''.join(str(e) for e in equ_arr))
+            #self.log.append(''.join(str(e) for e in equ_arr)) #<<<<<<<<<<<<<<<<<<<<<<<<<
             print("The Equation now looks like: " + str(equ_arr))
         del valid, locs, temp_equ_arr
 
@@ -274,7 +275,7 @@ class MathBuddy:
         if len(locs) > 0:
             print("Working out stuff relating to "+str(self.__operations1))
             equ_arr = self.__equ_o2(equ_arr, locs)
-            self.log.append(''.join(str(e) for e in equ_arr))
+            #self.log.append(''.join(str(e) for e in equ_arr))#<<<<<<<<<<<<<<<<<<<<<<<<<
             print("The Equation now looks like: " + str(equ_arr))
 
         print("-\nDetecting " + str(self.__operations2)+" for "+str(equ_arr))
@@ -282,7 +283,7 @@ class MathBuddy:
         if len(locs) > 0:
             print("Working out stuff relating to " + str(self.__operations2))
             equ_arr = self.__equ_dm2(equ_arr, locs)
-            self.log.append(''.join(str(e) for e in equ_arr))
+            #self.log.append(''.join(str(e) for e in equ_arr)) #<<<<<<<<<<<<<<<<<<<<<<<<<
             print("The Equation now looks like: " + str(equ_arr))
 
         print("-\nDetecting " + str(self.__operations3)+" for "+str(equ_arr))
@@ -290,7 +291,7 @@ class MathBuddy:
         if len(locs) > 0:
             print("Working out stuff relating to " + str(self.__operations3))
             equ_arr = self.__equ_as2(equ_arr, locs)
-            self.log.append(''.join(str(e) for e in equ_arr))
+            #self.log.append(''.join(str(e) for e in equ_arr)) #<<<<<<<<<<<<<<<<<<<<<<<<<
 
         return equ_arr[0]
 #######################################
@@ -332,7 +333,7 @@ class MathBuddy:
         print("Reading Equation: "+self.__equ_string)
         self.__equ_read()
         print("Equation Read as: "+str(self.__equ_array))
-        self.log.append(''.join(str(e) for e in self.__equ_array)+" = ?")
+        self.log.append(''.join(str(e) for e in self.__equ_array)+"=?")
 
         print("Now Doing the BODMAS :)")
         self.answer = self.__equ_bodmas(self.__equ_array)
@@ -353,20 +354,23 @@ class MathBuddy:
         while x < len(self.log):
             print(self.log[x])
             x += 1
+
+    def ret_log(self):
         return self.log
 
     def help(self):
         print("Commands:")
         
-        print("calculate(<equation>) - calculate an equation")
+        print("calculate(<equation>) - calculates <equation>")
         
-        print("factoral(<number>) - finds out the factor of a number")
-        print("rec_fac(<number>) - finds out the factor of a number, recursively")
+        print("factoral(<number>) - finds out the factor of <number>")
+        print("rec_fac(<number>) - finds out the factor of <number>, recursively")
         
-        print("fibonacci(<number>) - finds out the fibonacci of a number")
-        print("rec_fib(<number>) - finds out the fibonacci of a number, recursively")
+        print("fibonacci(<number>) - finds out the fibonacci of <number>")
+        print("rec_fib(<number>) - finds out the fibonacci of <number>, recursively")
 
-        print("out_log() - outputs a log")
+        print("out_log() - outputs the log")
+        print("ret_log() - returns the log")
 
 # from mathbuddy import *
 # bot = MathBuddy()
