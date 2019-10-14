@@ -164,6 +164,7 @@ class MathBuddy:
                 self.log.append(str(val1)+"^"+str(backup_val2)+"="+str(temp_answer))
                 del equ_array[loc1:loc2+1]
                 equ_array.insert(loc1, temp_answer)
+                if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
                 count += 2
 
             elif op_type == self.__operations1[1]:  # !
@@ -171,6 +172,7 @@ class MathBuddy:
                 self.log.append(str(val1) + "!" + "=" + str(temp_answer))
                 del equ_array[temp]
                 equ_array[loc1] = temp_answer
+                if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
                 count += 1
 
             x += 1
@@ -215,6 +217,7 @@ class MathBuddy:
 
             del equ_array[loc1:loc2+1]
             equ_array.insert(loc1, temp_answer)
+            if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
             count += 2
 
         count = 0
@@ -226,6 +229,7 @@ class MathBuddy:
                 del equ_array[x-count+1]
                 count += 1
                 equ_array[x] = temp_answer
+                if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
             x += 1
 
         return equ_array
@@ -257,6 +261,7 @@ class MathBuddy:
 
             del equ_array[loc1:loc2+1]
             equ_array.insert(loc1, temp_answer)
+            if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
             count += 2
         return equ_array
 
@@ -333,7 +338,7 @@ class MathBuddy:
         print("Reading Equation: "+self.__equ_string)
         self.__equ_read()
         print("Equation Read as: "+str(self.__equ_array))
-        self.log.append(''.join(str(e) for e in self.__equ_array)+"=?")
+        self.log.append(''.join(str(e) for e in self.__equ_array)+"=?") # logging the initial question
 
         print("Now Doing the BODMAS :)")
         self.answer = self.__equ_bodmas(self.__equ_array)
@@ -341,7 +346,7 @@ class MathBuddy:
         print("I've Got an Answer!")
         print("======")
         print(self.__equ_string+" = "+str(self.answer))
-        self.log.append(self.__equ_string+"="+str(self.answer))
+        self.log.append(self.__equ_string+"="+str(self.answer)) # logging the answer
         print("I did that in "+str(end_time-start_time)+" seconds")
         print("======")
         print("")
