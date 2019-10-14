@@ -343,7 +343,6 @@ class MathBuddy:
         print("I've Got an Answer!")
         print("======")
         print(self.__equ_string+" = "+str(self.answer))
-        self.log.append(self.__equ_string+"="+str(self.answer)) # logging the answer
         print("I did that in "+str(end_time-start_time)+" seconds")
         print("======")
         print("")
@@ -362,15 +361,15 @@ class MathBuddy:
 
     def help(self):
         print("Commands:")
-        
+        print("-")        
         print("calculate(<equation>) - calculates <equation>")
-        
+        print("-")
         print("factoral(<number>) - finds out the factor of <number>")
         print("rec_fac(<number>) - finds out the factor of <number>, recursively")
-        
+        print("-")
         print("fibonacci(<number>) - finds out the fibonacci of <number>")
         print("rec_fib(<number>) - finds out the fibonacci of <number>, recursively")
-
+        print("-")
         print("out_log() - outputs the log")
         print("ret_log() - returns the log")
 
