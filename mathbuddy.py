@@ -1,5 +1,7 @@
 from time import time, strftime, gmtime
 
+# from <thisFilename> import *
+# bot = MathBuddy()
 
 class MathBuddy:
     def __init__(self):
@@ -15,15 +17,14 @@ class MathBuddy:
         self.__equ_array = [] # stores equation
         self.__equ_string = "" # stroes string equiv of equation
 
-        self.answer = 0 # answer
-        self.ans_hist = [] # history of answers
-        self.log = [] # log of last equation
+        self.__answer = 0 # answer
+        self.__ans_hist = [] # history of answers
+        self.__log = [] # log of last equation
 
         # output to say that bot has started up
         print("Hello World. :)")
         print(strftime("It is: %d/%m/%Y %H:%M:%S -> GMT", gmtime()))
         print("You are running v1.5.3 of MathBuddy :D")
-        print("")
 
     ############################
     #  BODMAS module  ##########
@@ -121,7 +122,7 @@ class MathBuddy:
             temp_answer = self.__equ_bodmas(temp_equ)  # recurse the equation in the brackets
             del equ_array[start:end + 1]
             equ_array.insert(start, temp_answer)
-            if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
+            if (len(equ_array)-1): self.__log.append(''.join(str(e) for e in equ_array)+"=?")
 
             torf = True
             while torf and len(loc_array) > 0:  # while there are still valid pairs to be deleted
@@ -131,7 +132,6 @@ class MathBuddy:
                     torf = False  # end while loop
 
             change += end - start  # accounting for the simplification of equation
-            #self.log.append(''.join(str(e) for e in equ_array)) #<<<<<<<<<<<<<<<<<<<<<<<<<
 
         return equ_array
 
@@ -162,18 +162,18 @@ class MathBuddy:
                     temp_answer *= val1
                     val2 -= 1
 
-                self.log.append(str(val1)+"^"+str(backup_val2)+"="+str(temp_answer))
+                self.__log.append(str(val1)+"^"+str(backup_val2)+"="+str(temp_answer))
                 del equ_array[loc1:loc2+1]
                 equ_array.insert(loc1, temp_answer)
-                if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
+                if (len(equ_array)-1): self.__log.append(''.join(str(e) for e in equ_array)+"=?")
                 count += 2
 
             elif op_type == self.__operations1[1]:  # !
                 temp_answer = self.factorial(val1)
-                self.log.append(str(val1) + "!" + "=" + str(temp_answer))
+                self.__log.append(str(val1) + "!" + "=" + str(temp_answer))
                 del equ_array[temp]
                 equ_array[loc1] = temp_answer
-                if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
+                if (len(equ_array)-1): self.__log.append(''.join(str(e) for e in equ_array)+"=?")
                 count += 1
 
             x += 1
@@ -208,17 +208,17 @@ class MathBuddy:
             val2 = equ_array[loc2]
             if self.__operations2[0] in equ_array[temp]:  # if char is "/"
                 temp_answer = val1 / val2
-                self.log.append(str(val1) + "/" + str(val2) + "=" + str(temp_answer))
-            elif self.__operations2[1] in equ_array[temp]:  # if char is "*":
+                self.__log.append(str(val1) + "/" + str(val2) + "=" + str(temp_answer))
+            elif self.__operations2[1] in equ_array[temp]:  # if char is "*"
                 temp_answer = val1 * val2
-                self.log.append(str(val1) + "x" + str(val2) + "=" + str(temp_answer))
-            elif self.__operations2[2] in equ_array[temp]:  # if char is "*":
+                self.__log.append(str(val1) + "x" + str(val2) + "=" + str(temp_answer))
+            elif self.__operations2[2] in equ_array[temp]:  # if char is "*"
                 temp_answer = val1 % val2
-                self.log.append(str(val1) + "%" + str(val2) + "=" + str(temp_answer))
+                self.__log.append(str(val1) + "%" + str(val2) + "=" + str(temp_answer))
 
             del equ_array[loc1:loc2+1]
             equ_array.insert(loc1, temp_answer)
-            if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
+            if (len(equ_array)-1): self.__log.append(''.join(str(e) for e in equ_array)+"=?")
             count += 2
 
         count = 0
@@ -226,11 +226,11 @@ class MathBuddy:
         while x < len(equ_array)-1:  # stuff to make 3(2)=6 work
             if isinstance(equ_array[x], int or float) and isinstance(equ_array[x+1], int or float):
                 temp_answer = equ_array[x-count] * equ_array[x-count+1]
-                self.log.append(str(equ_array[x-count]) + "x" + str(equ_array[x-count+1]) + "=" + str(temp_answer))
+                self.__log.append(str(equ_array[x-count]) + "x" + str(equ_array[x-count+1]) + "=" + str(temp_answer))
                 del equ_array[x-count+1]
                 count += 1
                 equ_array[x] = temp_answer
-                if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
+                if (len(equ_array)-1): self.__log.append(''.join(str(e) for e in equ_array)+"=?")
             x += 1
 
         return equ_array
@@ -255,14 +255,14 @@ class MathBuddy:
             val2 = equ_array[loc2]
             if self.__operations3[0] in equ_array[temp]:  # if char is "+"
                 temp_answer = val1 + val2
-                self.log.append(str(val1) + "+" + str(val2) + "=" + str(temp_answer))
-            elif self.__operations3[1] in equ_array[temp]:  # if char is "-":
+                self.__log.append(str(val1) + "+" + str(val2) + "=" + str(temp_answer))
+            elif self.__operations3[1] in equ_array[temp]:  # if char is "-"
                 temp_answer = val1 - val2
-                self.log.append(str(val1) + "-" + str(val2) + "=" + str(temp_answer))
+                self.__log.append(str(val1) + "-" + str(val2) + "=" + str(temp_answer))
 
             del equ_array[loc1:loc2+1]
             equ_array.insert(loc1, temp_answer)
-            if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
+            if (len(equ_array)-1): self.__log.append(''.join(str(e) for e in equ_array)+"=?")
             count += 2
         return equ_array
 
@@ -328,40 +328,46 @@ class MathBuddy:
         return value
 
     def calculate(self, input_equation_str):
-        self.log.clear()
+        self.__log.clear()
         self.__equ_string = str(input_equation_str)
         print("Starting the timer!")
         start_time = time()
         print("Reading Equation: "+self.__equ_string)
         self.__equ_read()
         print("Equation Read as: "+str(self.__equ_array))
-        self.log.append(''.join(str(e) for e in self.__equ_array)+"=?") # logging the initial question
+        self.__log.append(''.join(str(e) for e in self.__equ_array)+"=?") # logging the initial question
 
         print("Now Doing the BODMAS :)")
-        self.answer = self.__equ_bodmas(self.__equ_array)
+        self.__answer = self.__equ_bodmas(self.__equ_array)
         end_time = time()
         print("I've Got an Answer!")
         print("======")
-        print(self.__equ_string+" = "+str(self.answer))
+        print(self.__equ_string+" = "+str(self.__answer))
         print("I did that in "+str(end_time-start_time)+" seconds")
         print("======")
         print("")
 
-        self.ans_hist.append(self.answer)
-        return self.answer
+        self.__ans_hist.append(self.__answer)
+        return self.__answer
 
     def out_log(self):
         x = 0
-        while x < len(self.log):
-            print(self.log[x])
+        while x < len(self.__log):
+            print(self.__log[x])
             x += 1
 
-    def ret_log(self):
-        return self.log
+    def rtn_log(self):
+        return self.__log
+
+    def rtn_ans(self):
+        return self.__answer
+
+    def rtn_ans_hist(self):
+        return self.__ans_hist
 
     def help(self):
         print("Commands:")
-        print("-")        
+        print("")        
         print("calculate(<equation>) - calculates <equation>")
         print("-")
         print("factoral(<number>) - finds out the factor of <number>")
@@ -371,7 +377,16 @@ class MathBuddy:
         print("rec_fib(<number>) - finds out the fibonacci of <number>, recursively")
         print("-")
         print("out_log() - outputs the log")
-        print("ret_log() - returns the log")
+        print("rtn_log() - returns the log")
+        print("-")
+        print("rtn_ans() - returns last answer")
+        print("rtn_ans_hist() - returns a history of the answers")
 
-# from mathbuddy import *
+        print("-")
+        print("This bot supports:")
+        print(''.join(str(e+", ") for e in self.__opr_ref))
+
+print("Imported MathBuddy Module...")
+print("Object to use: MathBuddy()")
+# from <thisFilename> import *
 # bot = MathBuddy()
