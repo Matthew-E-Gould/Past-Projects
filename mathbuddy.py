@@ -121,6 +121,7 @@ class MathBuddy:
             temp_answer = self.__equ_bodmas(temp_equ)  # recurse the equation in the brackets
             del equ_array[start:end + 1]
             equ_array.insert(start, temp_answer)
+            if (len(equ_array)-1): self.log.append(''.join(str(e) for e in equ_array)+"=?")
 
             torf = True
             while torf and len(loc_array) > 0:  # while there are still valid pairs to be deleted
@@ -271,7 +272,6 @@ class MathBuddy:
         if valid:
             print("Working out stuff relating to "+str(self.__operations0))
             equ_arr = self.__equ_b2(temp_equ_arr, locs)
-            #self.log.append(''.join(str(e) for e in equ_arr)) #<<<<<<<<<<<<<<<<<<<<<<<<<
             print("The Equation now looks like: " + str(equ_arr))
         del valid, locs, temp_equ_arr
 
@@ -280,7 +280,6 @@ class MathBuddy:
         if len(locs) > 0:
             print("Working out stuff relating to "+str(self.__operations1))
             equ_arr = self.__equ_o2(equ_arr, locs)
-            #self.log.append(''.join(str(e) for e in equ_arr))#<<<<<<<<<<<<<<<<<<<<<<<<<
             print("The Equation now looks like: " + str(equ_arr))
 
         print("-\nDetecting " + str(self.__operations2)+" for "+str(equ_arr))
@@ -288,7 +287,6 @@ class MathBuddy:
         if len(locs) > 0:
             print("Working out stuff relating to " + str(self.__operations2))
             equ_arr = self.__equ_dm2(equ_arr, locs)
-            #self.log.append(''.join(str(e) for e in equ_arr)) #<<<<<<<<<<<<<<<<<<<<<<<<<
             print("The Equation now looks like: " + str(equ_arr))
 
         print("-\nDetecting " + str(self.__operations3)+" for "+str(equ_arr))
@@ -296,7 +294,6 @@ class MathBuddy:
         if len(locs) > 0:
             print("Working out stuff relating to " + str(self.__operations3))
             equ_arr = self.__equ_as2(equ_arr, locs)
-            #self.log.append(''.join(str(e) for e in equ_arr)) #<<<<<<<<<<<<<<<<<<<<<<<<<
 
         return equ_arr[0]
 #######################################
